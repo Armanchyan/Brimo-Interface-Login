@@ -27,6 +27,7 @@ body {
 
 .fast {
   position: absolute;
+  margin-left: 17px;
   width: 24em;
   align-items: center;
   display: flex;
