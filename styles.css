@@ -28,7 +28,7 @@ body {
 .fast {
   position: absolute;
   margin-left: 17px;
-  width: 24em;
+  width: 23em;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -174,7 +174,6 @@ body {
 
 .container_fingerprint {
   position: absolute;
-  padding-bottom: ;
   bottom: 0;
   margin-left: 325px;
   width: 3em;
