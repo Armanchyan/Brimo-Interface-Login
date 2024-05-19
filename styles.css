@@ -3,7 +3,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  max-width: 25em;
+  max-width: 26em;
   max-height: 100vh;
 }
 
@@ -27,8 +27,8 @@ body {
 
 .fast {
   position: absolute;
-  margin-left: 17px;
-  width: 23em;
+  margin-left: 50px;
+  width: 20em;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -45,7 +45,7 @@ body {
   margin-top: 33em;
   margin-left: 20px;
   column-gap: 20px;
-  width: em;
+  width: 349px;
   align-items: center;
 }
 
@@ -159,6 +159,7 @@ body {
   font-weight: 800;
   font-style: normal;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .container_info {
@@ -188,4 +189,114 @@ body {
   border: none;
   margin-top: 10px;
   margin-left: 7px;
+}
+
+/* start login interface */
+
+.loginInterface {
+  visibility: hidden;
+  bottom: 0;
+  position: absolute;
+  width: 24.5em;
+  height: 17.5em;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.loginInterface.active {
+  visibility: visible;
+}
+
+.textLogin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.textCancel {
+  position: absolute;
+  top: 0;
+  margin-top: 15px;
+  margin-left: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.textCancel,
+a {
+  text-decoration: none;
+  color: #05abf8;
+}
+
+.inputInterface {
+  margin-top: 10%;
+  margin-left: 20px;
+  width: 20em;
+  height: 120px;
+  color: darkgrey;
+}
+
+#username,
+#password {
+  width: 22em;
+  height: 40px;
+  column-gap: 100px;
+  border-radius: 10px;
+  border-style: groove;
+  border: solid darkgray;
+}
+
+#username {
+  padding-left: 50px;
+}
+
+#password {
+  padding-left: 50px;
+  margin-top: 10px;
+}
+
+#iconPerson {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#iconLock {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.btnLogin {
+  position: absolute;
+  display: flex;
+
+  width: 22em;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.btnLogin button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #05abf8;
+  color: white;
+  font-family: "Roboto" ,sans-serif;
+  font-weight: 600;
+}
+
+.lupaPassword {
+  text-align: center;
+  margin-top: 55px;
+ 
+}
+.lupaPassword a {
+  font-family: "Roboto" , sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
 }
